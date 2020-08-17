@@ -44,9 +44,9 @@ function draw() {
     texture(cam);
     
     box(220);
-    box(50);
+    ellipsoid(50,75,25, 150,150);
     box(20);
-    box(8);
+    cylinder(8);
     box(3);
     box(1);
     pop();
